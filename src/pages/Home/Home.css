@@ -1,0 +1,33 @@
+.question-gif-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-gif {
+  height: 450px;
+  width: 600px;
+}
+
+.get-started-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+  .question-gif {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 701px) {
+  .question-gif {
+    height: 300px;
+    width: 400px;
+  }
+}

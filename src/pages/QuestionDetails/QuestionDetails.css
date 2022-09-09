@@ -1,0 +1,27 @@
+.text-area-container {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 25%;
+}
+
+.add-question-button {
+  margin-left: 25%;
+}
+
+.text-area {
+  width: 400px !important;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .text-area-container {
+    margin-left: 0%;
+  }
+  .text-area {
+    width: 300px !important;
+  }
+  .add-question-button {
+    margin-left: 0%;
+  }  
+}

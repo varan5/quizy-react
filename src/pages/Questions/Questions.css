@@ -1,0 +1,52 @@
+.question-card-container {
+  height: 200px;
+  width: 600px;
+}
+
+.edit-delete-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-questions-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.your-questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.loader-gif {
+  height: 100px;
+  width: 180px;
+}
+
+.loader-gif-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+@media (max-width: 1200px) and (min-width: 701px) {
+  .question-card-container {
+    height: 200px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  .question-card-container {
+    height: 200px;
+    width: 350px;
+  }
+}
+
