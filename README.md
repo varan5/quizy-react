@@ -1,4 +1,5 @@
 # Quizy App - React
+## App Live Link: https://quizy.pages.dev/
 
 ## Features:
 
@@ -15,7 +16,7 @@
 <img src="designs/Add-New-Question.png" height="500" >
 
 ### Delete Question With Confirmation
-<img src="designs/Delete-Question-With-Confirmation.png height="500" >
+<img src="designs/Delete-Question-With-Confirmation.png" height="500" >
 
 ### Edit Question
 <img src="designs/Edit-Question.png" height="500" >
